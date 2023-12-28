@@ -1,0 +1,24 @@
+
+I am a systems engineer with 20 eyars experience. 
+
+For the last 10 I've suppotered varios Operational Technology  networks, inlcuding finance, pharma, and utlities. 
+
+
+I've led small teams of four to twelve people, including a team of 4 at Bristol Myers, and a team of 12 at Consolidated Edison.  
+
+i'VE LED CABLING PROJECTS, WIRELSS INFRASTRUCE UPGRaDES, AND SUPPORTED VARIOS UPGRaDES ON The PATH TO INDUSTRY 4.0 
+
+
+ **Location**: Enterprise Agents are deployed within your own network infrastructure, whether that's on-premises or in cloud environments such as AWS, Azure, or Google Cloud. You have full control over where and how you deploy them.
+
+   - **Deployment**: Enterprise Agents require you to set up and manage the agent infrastructure within your organization. You can install Enterprise Agents on physical servers, virtual machines, or containers based on your specific needs.
+
+   - **Network Perspective**: Enterprise Agents provide an internal perspective of your network. They allow you to monitor and troubleshoot network performance within your own infrastructure, including private networks and hybrid cloud environments.
+
+   - **Use Cases**: Enterprise Agents are suitable for monitoring the performance of internal applications, services, and network paths. They are often used for troubleshooting issues within your network, assessing the impact of network changes, and ensuring optimal performance for critical applications.
+
+   - **Control**: You have full control over Enterprise Agents, allowing you to customize their deployment and monitoring to match your organization's specific requirements and security policies.
+
+
+
+

@@ -1,0 +1,11 @@
+ungrouped:
+  hosts:
+    teth; teth2; nabooo; risa:
+webservers:
+  hosts:
+    foo.example.com:
+    bar.example.com:
+dbservers:
+  hosts:
+    one.example.com:
+  

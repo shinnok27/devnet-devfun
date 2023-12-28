@@ -1,0 +1,34 @@
+---
+- name: Install Splunk Forwarder on Ubuntu instances
+  hosts: all  # Replace with your target host group
+  become: yes
+
+  tasks:
+  - name: Add Splunk repository key
+    apt_key:
+      url: https://www.splunk.com/en_us/download/universal-forwarder/releases/{{ splunk_forwarder_version }}/linux/{{ ansible_distribution | lower }}/7/splunkforwarder-{{ splunk_forwarder_version }}-{{ ansible_architecture }}.deb.key
+      state: present
+
+  - name: Add Splunk repository
+    apt_repository:
+      repo: deb https://www.splunk.com/en_us/download/universal-forwarder/releases/{{ splunk_forwarder_version }}/linux/{{ ansible_distribution | lower }}/7/ /
+      state: present
+
+  - name: Install Splunk Forwarder
+    apt:
+      name: splunkforwarder
+      state: present
+
+  - name: Configure Splunk Forwarder
+    copy:
+      src: splunk_forwarder.conf
+      dest: /opt/splunkforwarder/etc/system/local/splunk_forwarder.conf
+      owner: splunk
+      group: splunk
+    # Replace splunk_forwarder.conf with your configuration file
+
+  - name: Start Splunk Forwarder
+    service:
+      name: splunkforwarder
+      state: started
+      enabled: yes

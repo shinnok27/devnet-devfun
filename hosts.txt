@@ -1,0 +1,43 @@
+ungrouped:
+  hosts:
+    teth; teth2; nabooo; risa:
+webservers:
+  hosts:
+    foo.example.com:
+    bar.example.com:
+dbservers:
+  hosts:
+    one.example.com:
+
+Set Up a ThousandEyes Account:
+If you haven't already, sign up for a ThousandEyes account and log in to the ThousandEyes platform.
+
+Install Enterprise Agents:
+Deploy ThousandEyes Enterprise Agents within your Azure environment. These agents will provide visibility into your Azure-based resources. You can install agents on virtual machines (VMs) running in Azure or on physical servers, depending on your needs.
+
+Configure Network Tests:
+Create network tests in ThousandEyes to monitor the performance of your Azure-based applications and services. This can include tests for web applications, DNS, BGP, or any other relevant network services.
+
+Define Alerts and Thresholds:
+Set up alerting thresholds for your network tests. ThousandEyes can notify you when network performance metrics exceed predefined thresholds, helping you proactively address issues.
+
+API Access and Azure Integration:
+To integrate ThousandEyes with Azure, you may need to use Azure's APIs. This can involve retrieving information about your Azure resources, such as VMs, virtual networks, and application gateways, to enhance your monitoring and reporting in ThousandEyes.
+
+Custom Dashboards and Reporting:
+Use the ThousandEyes platform to create custom dashboards and reports that display relevant metrics and data from your Azure environment. This can help you visualize network performance and troubleshoot issues effectively.
+
+Monitor Hybrid Environments:
+If you have a hybrid network environment with resources both in Azure and on-premises, configure ThousandEyes to monitor the entire network path, including both cloud and on-premises components.
+
+Continuous Optimization:
+Continuously monitor and optimize your Azure network and applications using ThousandEyes data. Make adjustments to your configurations as needed to ensure optimal performance and reliability.
+
+Security and Compliance:
+Ensure that your integration complies with Azure's security and compliance requirements. Follow best practices for securing your ThousandEyes agents and data.
+
+Documentation and Training:
+Train your network engineers and IT staff on how to use ThousandEyes effectively to monitor and troubleshoot your Azure-based infrastructure.
+
+Remember that the specific steps and configurations may vary depending on your organization's requirements, the Azure services you are using, and the monitoring goals you want to achieve. Consulting ThousandEyes documentation and Azure's documentation and support resources will be essential for a successful integration.
+  
